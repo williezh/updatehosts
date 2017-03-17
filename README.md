@@ -7,7 +7,7 @@ updateHosts
 >hosts文件是一个用于储存计算机网络中各节点信息的计算机文件。这个文件负责将主机名映射到相应的IP地址。hosts文件通常用于补充或取代网络中DNS的功能。和DNS不同的是，计算机的用户可以直接对hosts文件进行控制。 ——[hosts文件 - 维基百科，自由的百科全书](http://zh.wikipedia.org/zh-cn/Hosts%E6%96%87%E4%BB%B6 "hosts文件 - 维基百科，自由的百科全书")
 
 ### updateHosts是什么
-updateHosts可以自动从网络下载最新的hosts文件，并自动替换本机的hosts文件。请注意，updateHosts本身 **不** 生成hosts，hosts的来源由用户指定，或者你可可以使用默认推荐的源。更多更能请见下文描述。
+updateHosts可以自动从网络下载最新的hosts文件，并自动替换本机的hosts文件。请注意，updateHosts本身 **不** 生成hosts，hosts的来源由用户指定，或者你也可以使用默认推荐的源。更多更能请见下文描述。
 
 ### hosts的功能
 > hosts文件也可以用于其它情况，例如可以将已知的广告服务器重定向到无广告的机器（通常是本地的IP地址：127.0.0.1）上来过滤广告。同时也可以通过不下载网络广告，从而减少带宽。使用hosts文件还可以减少对DNS服务器的访问来加快访问速度并减少带宽消耗。
@@ -20,7 +20,7 @@ updateHosts可以自动从网络下载最新的hosts文件，并自动替换本�
 
 
 ## 使用说明
-下载地址：<https://github.com/ladder1984/updateHosts/archive/master.zip> 解压即可使用。
+下载地址：<https://github.com/williezh/updatehosts/archive/master.zip> 解压即可使用。
 
 ### 运行方法
 
@@ -70,7 +70,7 @@ updateHosts可以自动从网络下载最新的hosts文件，并自动替换本�
 
 
 ## hosts源
-hosts源来源于网络，收录入[someHosts](https://github.com/ladder1984/someHosts)项目，并选取如下hosts：
+hosts源来源于网络，并选取如下hosts：
 
 - simpleu-hosts <https://github.com/vokins/simpleu>
 - google-hosts <https://github.com/txthinking/google-hosts>
@@ -81,10 +81,10 @@ hosts源来源于网络，收录入[someHosts](https://github.com/ladder1984/som
 
 
 ## 其他
-- updateHosts项目地址：<https://github.com/ladder1984/updateHosts>
-- ChangeLog：<https://github.com/ladder1984/updateHosts/blob/master/ChangeLog.txt>
-- 作者：<https://github.com/ladder1984> 博客：<http://www.itoldme.net>
-- 欢迎反馈问题和建议，地址：<https://github.com/ladder1984/updateHosts/issues>
+- updateHosts项目地址：<https://github.com/williezh/updatehosts>
+- ChangeLog：<https://github.com/williezh/updatehosts/blob/master/ChangeLog.txt>
+- 作者：<https://github.com/williezh> 博客：<http://blog.csdn.net/jaket5219999>
+- 欢迎反馈问题和建议，地址：<https://github.com/williezh/updatehosts/issues>
 
 ## 版权声明
 - 本软件使用MIT协议
